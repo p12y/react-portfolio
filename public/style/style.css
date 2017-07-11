@@ -70,3 +70,14 @@ span.gray {
   background-color: #7DF9FF;
   color: black;
 }
+
+.container-fluid.dark {
+  background: #3D3D3D;
+  color: white;
+}
+
+p.lead {
+  margin-top: 2em;
+  font-size: 1.8em;
+  text-align: center;
+}

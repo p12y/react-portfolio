@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Intro from './components/intro';
 import FixedNavbar from './components/navbar';
 import About from './components/about';
+import Portfolio from './components/portfolio';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Intro />
         <FixedNavbar />
         <About />
+        <Portfolio />
       </div>
     );
   }
