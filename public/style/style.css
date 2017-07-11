@@ -1,5 +1,5 @@
 body {
-  background: #3D3D3D;
+  background: white;
 }
 
 .mono {
@@ -17,6 +17,7 @@ body {
   font-family: 'Source Code Pro', monospace;
   text-align: left;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .intro {
@@ -49,4 +50,22 @@ span.gray {
 
 .more {
   margin-top: 8em;
+}
+
+.navbar-inverse {
+  background-color: #3D3D3D;
+  border: none;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav > li> a {
+  color: #7DF9FF;
+}
+
+.navbar-inverse .navbar-nav > li> a:hover {
+  background-color: #7DF9FF;
+  color: black;
 }
