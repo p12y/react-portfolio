@@ -16,7 +16,7 @@ class App extends Component {
               <hr/>
               <blockquote>I use the <span className="highlight">entire</span> tech stack to create <span className="highlight">products</span> that people <span className="highlight">love</span> to use.</blockquote>
               <br/>
-              <h5>Find out more...</h5>
+              <h5>Find out more</h5>
             </div>
             </div>
           </div>
