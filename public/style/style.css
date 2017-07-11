@@ -59,6 +59,7 @@ span.gray {
 
 .navbar {
   border-radius: 0;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .navbar-inverse .navbar-nav > li> a {
