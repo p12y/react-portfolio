@@ -81,3 +81,11 @@ p.lead {
   font-size: 1.8em;
   text-align: center;
 }
+
+span.pink-underline {
+  border-bottom: 2px solid #EF53D8;
+}
+
+span.blue-underline {
+  border-bottom: 2px solid #7DF9FF;
+}

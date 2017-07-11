@@ -6,9 +6,9 @@ export default class Portfolio extends Component {
     return (
       <div className="container-fluid dark">
         <div className="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h1 className="mono"><strong>Portfolio</strong></h1>
+          <div className="row">
+            <div className="col-md-4">
+              <h1 className="sans"><strong>Portfolio</strong></h1>
             </div>
           </div>
         </div>
