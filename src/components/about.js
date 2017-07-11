@@ -26,7 +26,7 @@ export default class About extends Component {
         <div className="row">
           <div className="col-md-6 col-md-offset-3">
             <h2 className="sans"><strong>Skills</strong> <small><span className="pink-underline">in strength order</span></small></h2>
-            <List skills={skills}/>
+            <List items={skills}/>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ export default class About extends Component {
           <div className="col-md-6 col-md-offset-3">
             <h2 className="sans"><strong>Interests</strong></h2>
             <p className="mono">I am passionate about self-development, which is why I spend a serious amount of time picking up new skills and learning to do things better than I could before.</p>
-            <p className="mono">I love to travel, but after spending two and a half years abroad I'm happy to be back, ready to <del>work on my plans for world domination</del> ehem... persue my goals &#x1F608;.</p>
+            <p className="mono">I love to travel, but after spending two and a half years abroad I'm happy to be back, ready to <del>work on my plans for world domination</del> ehem... persue my goals <span className="text-danger">&#x1F608;</span>.</p>
           </div>
         </div>
 
