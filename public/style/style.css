@@ -24,10 +24,10 @@ body {
 }
 
 .vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
-    width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  width: 100%;
 }
 
 span.highlight {
@@ -45,4 +45,8 @@ span.pink {
 
 span.gray {
   color: #C5C5C5;
+}
+
+.more {
+  margin-top: 8em;
 }
