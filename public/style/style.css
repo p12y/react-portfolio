@@ -1,0 +1,48 @@
+body {
+  background: #3D3D3D;
+}
+
+.mono {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.sans {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+  background: #3D3D3D;
+  height: 100vh;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  text-align: left;
+  width: 100%;
+}
+
+.intro {
+  padding-top: 10%;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    width: 100%;
+}
+
+span.highlight {
+  background-color: #7DF9FF;
+  color: black;
+}
+
+span.purple {
+  color: #997FEF;
+}
+
+span.pink {
+  color: #EF53D8;
+}
+
+span.gray {
+  color: #C5C5C5;
+}
