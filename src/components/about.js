@@ -25,7 +25,7 @@ export default class About extends Component {
 
         <div className="row">
           <div className="col-md-6 col-md-offset-3">
-            <h2 className="sans"><strong>Skills</strong> <small><span className="pink-underline">in strength order</span></small></h2>
+            <h2 className="sans"><strong>Skills</strong> <small><span className="pink-underline">in strength order...</span></small></h2>
             <List items={skills}/>
           </div>
         </div>

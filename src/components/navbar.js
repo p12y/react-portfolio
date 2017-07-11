@@ -9,7 +9,7 @@ export default class FixedNavbar extends Component {
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1} href="#">About</NavItem>
-            <NavItem eventKey={2} href="#">Portfolio</NavItem>
+            <NavItem eventKey={2} href="#">My Work</NavItem>
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1} href="#">ptylde@gmail.com</NavItem>

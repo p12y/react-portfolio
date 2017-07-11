@@ -89,3 +89,7 @@ span.pink-underline {
 span.blue-underline {
   border-bottom: 2px solid #7DF9FF;
 }
+
+.project-title {
+  margin-top: 0;
+}
