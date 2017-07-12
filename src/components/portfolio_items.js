@@ -34,6 +34,6 @@ export default class PortfolioItems extends Component {
       );
     });
 
-    return <div>{items}</div>;
+    return <div className="container work">{items}</div>;
   }
 }

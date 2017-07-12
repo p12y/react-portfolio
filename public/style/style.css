@@ -99,10 +99,23 @@ span.blue-underline {
   width: 60%;
 }
 
+.container.projects {
+  margin-top: 5em;
+  width: 80%;
+}
+
 .title {
   margin-top: 2em;
 }
 
-.portfolioItem {
+.portfolio-item {
   margin-top: 5em;
+}
+
+.project-item {
+  margin-bottom: 5em;
+}
+
+.project-item-description {
+  margin-top: 2em;
 }

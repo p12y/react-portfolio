@@ -8,7 +8,7 @@ export default class List extends Component {
     });
     
     return (
-    <ul>
+    <ul className="mono">
       {nodes}
     </ul>
     );
