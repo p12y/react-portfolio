@@ -167,3 +167,12 @@ span.gray-underline {
   fill: #303030;
   color: #303030 !important;
 }
+
+.arrow svg:hover {
+  fill: gray;
+}
+
+.arrow {
+  cursor: pointer;
+}
+

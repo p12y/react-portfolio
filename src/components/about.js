@@ -25,10 +25,9 @@ export default class About extends Component {
 
   render() {
     return (
-      <div>
+      <div id="about">
         <ReactTooltip />
         <Header title={'About'} />
-        
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-md-offset-3">

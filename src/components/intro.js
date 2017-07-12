@@ -1,8 +1,13 @@
 import React, {Component} from 'react';
 import Ionicon from 'react-ionicons';
 import Typist from 'react-typist';
+import scrollToElement from 'scroll-to-element';
 
 export default class Intro extends Component {
+  handleArrowClick(el) {
+    scrollToElement(el);
+  }
+
   render() {
     return (
       <div className="jumbotron">
@@ -14,9 +19,10 @@ export default class Intro extends Component {
               </h2>
               <hr/>
               <blockquote>I use the <span className="highlight">entire</span> tech stack to <span className="highlight">create</span> products that people <span className="highlight">love</span> to use.</blockquote>
-              <br/>
               <div className="text-center more">
-                <Ionicon icon="ion-ios-arrow-down" fontSize="25px" color="white"/>
+                <span className="arrow" onClick={() => this.handleArrowClick('#about')} >
+                  <Ionicon icon="ion-ios-arrow-down" fontSize="25px" color="white"/>
+                </span>
               </div>
             </div>
           </div>

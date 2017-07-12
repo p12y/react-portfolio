@@ -1,8 +1,13 @@
 import React, {Component} from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import Ionicon from 'react-ionicons';
+import scrollToElement from 'scroll-to-element';
 
 export default class FixedNavbar extends Component {
+  handleClick(el) {
+    scrollToElement(el);
+  }
+
   render() {
     return (
       <div>
@@ -10,11 +15,11 @@ export default class FixedNavbar extends Component {
         <Navbar inverse collapseOnSelect>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} href="#">About</NavItem>
-              <NavItem eventKey={2} href="#">Work</NavItem>
+              <NavItem onClick={() => this.handleClick('#about')} eventKey={1} href="#">About</NavItem>
+              <NavItem onClick={() => this.handleClick('#portfolio')} eventKey={2} href="#">Work</NavItem>
             </Nav>
             <Nav pullRight>
-              <NavItem eventKey={1} href="#">Contact</NavItem>
+              <NavItem onClick={() => this.handleClick('#contact')} eventKey={1} href="#">Contact</NavItem>
               <NavItem eventKey={2} href="#"><Ionicon icon="ion-social-octocat" color="#7DF9FF"/></NavItem>
               <NavItem eventKey={2} href="#"><Ionicon icon="ion-social-instagram" color="#7DF9FF"/></NavItem>
             </Nav>
