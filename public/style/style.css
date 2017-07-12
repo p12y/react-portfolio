@@ -2,7 +2,7 @@ body {
   background: white;
 }
 
-a, a:hover, a:visited {
+a, a:hover, a:visited, a:active {
   text-decoration: none;
   color: inherit;
 }
