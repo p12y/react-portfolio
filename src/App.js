@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Intro from './components/intro';
 import FixedNavbar from './components/navbar';
 import About from './components/about';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -15,6 +15,7 @@ class App extends Component {
         <About />
         <Portfolio />
         <Contact />
+        <Footer />
       </div>
     );
   }

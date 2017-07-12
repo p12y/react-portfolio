@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import List from './list';
 
 const PortfolioItem = props => {
@@ -13,7 +13,7 @@ const PortfolioItem = props => {
       </div>
 
       <div className="col-md-6">
-        <img src={img_url} />
+        <img alt="" src={img_url} />
       </div>
     </div>
   )

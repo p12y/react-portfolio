@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Ionicon from 'react-ionicons';
 import PortfolioItems from './portfolio_items';
 import Header from './header';
 import ProjectItems from './project_items';
