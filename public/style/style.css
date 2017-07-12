@@ -2,6 +2,11 @@ body {
   background: white;
 }
 
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 .mono {
   font-family: 'Source Code Pro', monospace;
 }
