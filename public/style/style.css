@@ -98,3 +98,11 @@ span.blue-underline {
 .container.work {
   width: 60%;
 }
+
+.title {
+  margin-top: 2em;
+}
+
+.portfolioItem {
+  margin-top: 5em;
+}

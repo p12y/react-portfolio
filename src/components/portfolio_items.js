@@ -20,7 +20,7 @@ export default class PortfolioItems extends Component {
       listItems: teachlingoItems, img_url: 'http://via.placeholder.com/450x300'},
       {title: 'Appointment Reminder (WIP)', 
       description: 'An appointment scheduler built with Ruby on Rails.',
-      listItems: teachlingoItems, img_url: 'http://via.placeholder.com/450x300'}
+      listItems: schedulerItems, img_url: 'http://via.placeholder.com/450x300'}
     ]
 
     const items = portfolioItems.map(item => {
