@@ -60,6 +60,7 @@ span.gray {
 .navbar {
   border-radius: 0;
   font-family: 'Source Code Pro', monospace;
+  margin-bottom: 0;
 }
 
 .navbar-inverse .navbar-nav > li> a {
@@ -92,4 +93,8 @@ span.blue-underline {
 
 .project-title {
   margin-top: 0;
+}
+
+.container.work {
+  width: 60%;
 }
