@@ -3,14 +3,14 @@ import PortfolioItem from './portfolio_item';
 
 export default class PortfolioItems extends Component {
   render() {
-    const teachlingoItems = [{id: 1, name: 'Separate teacher/recruiter accounts'}, 
-      {id: 2, name: 'Apply to jobs/send applications with a single click'}, 
-      {id: 3, name: 'User profiles (complete with image uploading)'},
-      {id: 4, name: 'Accepts payments with Stripe'}];
+    const teachlingoItems = [{id: 1, name: 'Teacher/recruiter accounts with dashboards'}, 
+      {id: 2, name: 'Easy applications with email alerts'}, 
+      {id: 3, name: 'User profiles with image uploading'},
+      {id: 4, name: 'Payments with Stripe'}];
 
-    const schedulerItems = [{id: 1, name: 'Built with a heavily customised version of FullCalendar.js'}, 
-      {id: 2, name: 'Ajax requests'}, 
-      {id: 3, name: 'Integration with Twilio API & Delayed::Job for text message reminders'},
+    const schedulerItems = [{id: 1, name: 'Ajax requests'}, 
+      {id: 2, name: 'Custom FullCalendar integration'}, 
+      {id: 3, name: 'Twilio API & Delayed Job for SMS & email reminders'},
       {id: 4, name: 'Test credentials:', children: [{id: 5, name: <u>Email: foo@bar.com</u>},
     {id: 6, name: <u>Password: password</u>}]}];
     
