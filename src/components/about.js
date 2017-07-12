@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import List from './list';
 import Header from './header';
-import ReactTooltip from 'react-tooltip'
+import ReactTooltip from 'react-tooltip';
 
 const skills = [{id: 1, name: 'HTML/CSS/SCSS'}, {id: 2, name: 'Ruby', children: [{id: 3, name: 'Rails'}, 
 {id: 4, name: 'RSpec'}]}, {id: 5, name: 'Javascript', children: [{id: 6, name: 'jQuery'}, 

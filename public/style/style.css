@@ -153,3 +153,17 @@ span.gray-underline {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+
+.navbar-nav > li > a {
+  line-height: 30px;
+}
+
+.navbar-nav > li > a > svg {
+  vertical-align: -8px;
+}
+
+.navbar-nav > li > a:hover, a:hover > svg {
+  fill: #303030;
+  color: #303030 !important;
+}
