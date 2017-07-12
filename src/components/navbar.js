@@ -4,7 +4,6 @@ import Ionicon from 'react-ionicons';
 
 export default class FixedNavbar extends Component {
   render() {
-    let nav = this.state.nav;
     return (
       <Navbar inverse collapseOnSelect>
         <Navbar.Collapse>
@@ -22,3 +21,4 @@ export default class FixedNavbar extends Component {
     );
   }
 }
+
