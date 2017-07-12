@@ -4,6 +4,7 @@ import Intro from './components/intro';
 import FixedNavbar from './components/navbar';
 import About from './components/about';
 import Portfolio from './components/portfolio';
+import Contact from './components/contact';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <FixedNavbar />
         <About />
         <Portfolio />
+        <Contact />
       </div>
     );
   }
