@@ -5,6 +5,7 @@ body {
 a, a:hover, a:visited, a:active {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .mono {
@@ -136,3 +137,19 @@ span.gray-underline {
   padding-bottom: 1em;
   margin-top: 7em;
 }
+
+/* Typist */
+
+.Typist .Cursor {
+  display: inline-block; }
+  .Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
