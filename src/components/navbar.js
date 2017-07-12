@@ -4,12 +4,13 @@ import Ionicon from 'react-ionicons';
 
 export default class FixedNavbar extends Component {
   render() {
+    let nav = this.state.nav;
     return (
       <Navbar inverse collapseOnSelect>
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1} href="#">About</NavItem>
-            <NavItem eventKey={2} href="#">My Work</NavItem>
+            <NavItem eventKey={2} href="#">Work</NavItem>
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1} href="#">ptylde@gmail.com</NavItem>
