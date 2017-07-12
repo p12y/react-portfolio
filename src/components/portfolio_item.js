@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import List from './list';
 
-class PortfolioItem extends Component {
- render() {
-  const {title, description, listItems, img_url} = this.props;
+const PortfolioItem = props => {
+  const {title, description, listItems, img_url} = props;
   return (
     <div className="row mono">
       <div className="col-md-6">
@@ -17,8 +16,7 @@ class PortfolioItem extends Component {
         <img src={img_url} />
       </div>
     </div>
-  );
- }
-}
+  )
+};
 
 export default PortfolioItem;
