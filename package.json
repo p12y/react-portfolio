@@ -12,7 +12,6 @@
     "react-scripts": "1.0.10",
     "react-tooltip": "^3.3.0",
     "react-typist": "^1.1.1",
-    "react-waypoint": "^7.0.4",
     "scroll-to-element": "^2.0.0"
   },
   "scripts": {
