@@ -13,7 +13,7 @@ const PortfolioItem = props => {
       </div>
 
       <div className="col-md-6">
-        <img alt="" src={img_url} />
+        <img className="img-responsive" alt="" src={img_url} />
       </div>
     </div>
   )

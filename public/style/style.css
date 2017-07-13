@@ -176,3 +176,28 @@ span.gray-underline {
   cursor: pointer;
 }
 
+#menu {
+  position: fixed;
+  top: 1.4em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 2em;
+}
+
+svg {
+  fill: #7DF9FF;
+}
+
+.btn.btn-black {
+  background-color: #3D3D3D;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.btn.btn-black:hover {
+  background-color: #7DF9FF;
+}
+
+.btn.btn-black:hover svg {
+  fill: #3D3D3D;
+}
