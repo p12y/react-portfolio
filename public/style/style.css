@@ -180,8 +180,6 @@ span.gray-underline {
   position: fixed;
   top: 1.4em;
   left: 0;
-  right: 0;
-  bottom: 0;
   margin-top: 2em;
 }
 
@@ -201,3 +199,10 @@ svg {
 .btn.btn-black:hover svg {
   fill: #3D3D3D;
 }
+
+.media-icons svg {
+  fill: black;
+  text-align: center;
+  margin-right: 2em;
+}
+
