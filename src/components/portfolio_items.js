@@ -17,10 +17,10 @@ export default class PortfolioItems extends Component {
     const portfolioItems = [
       {title: 'Teachlingo', 
       description: 'A job board for ESL teachers built with Ruby on Rails.',
-      listItems: teachlingoItems, img_url: 'http://via.placeholder.com/450x300'},
+      listItems: teachlingoItems, img_url: 'img/teachlingo.png', url: 'https://teachlingo.com/'},
       {title: 'Appointment Reminder (WIP)', 
       description: 'An appointment scheduler built with Ruby on Rails.',
-      listItems: schedulerItems, img_url: 'http://via.placeholder.com/450x300'}
+      listItems: schedulerItems, img_url: 'img/scheduler.png', url: 'https://appointment-reminder-app.herokuapp.com/'}
     ]
 
     const items = portfolioItems.map(item => {
@@ -29,7 +29,8 @@ export default class PortfolioItems extends Component {
           title={item.title} 
           description={item.description} 
           listItems={item.listItems} 
-          img_url={item.img_url} 
+          img_url={item.img_url}
+          url={item.url}
         />
       );
     });

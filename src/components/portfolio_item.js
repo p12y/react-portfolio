@@ -2,7 +2,7 @@ import React from 'react';
 import List from './list';
 
 const PortfolioItem = props => {
-  const {title, description, listItems, img_url} = props;
+  const {title, description, listItems, img_url, url} = props;
   return (
     <div className="row mono portfolio-item">
       <div className="col-md-6">
@@ -13,7 +13,7 @@ const PortfolioItem = props => {
       </div>
 
       <div className="col-md-6">
-        <img className="img-responsive" alt="" src={img_url} />
+        <a href={url} target="_blank" rel="noopener noreferrer"><img className="img-responsive" alt="" src={img_url} /></a>
       </div>
     </div>
   )

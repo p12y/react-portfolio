@@ -101,6 +101,10 @@ span.gray-underline {
   border-bottom: 2px solid #C5C5C5;
 }
 
+span.white-underline {
+  border-bottom: 2px solid white;
+}
+
 .project-title {
   margin-top: 0;
 }

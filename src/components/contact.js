@@ -8,8 +8,8 @@ const Contact = () => {
       <Header title="Let's talk" />
       <p className="text-center lead mono">Questions? Email me at <span className="pink-underline"><a href="mailto:ptylde@gmail.com?Subject=Hello" target="_top">ptylde@gmail.com</a></span></p>
         <p className="text-center small-text mono">Or find me on social media</p>     
-        <p className="text-center"><div className="media-icons"><a href="https://github.com/p12y" target="_blank"><Ionicon icon="ion-social-octocat" fontSize="50px" color="black"/></a>
-        <a href="https://www.instagram.com/petetyldesley/" target="_blank"><Ionicon icon="ion-social-instagram" fontSize="50px" color="black"/></a>
+        <p className="text-center"><div className="media-icons"><a href="https://github.com/p12y" target="_blank" rel="noopener noreferrer"><Ionicon icon="ion-social-octocat" fontSize="50px" color="black"/></a>
+        <a href="https://www.instagram.com/petetyldesley/" target="_blank" rel="noopener noreferrer"><Ionicon icon="ion-social-instagram" fontSize="50px" color="black"/></a>
         </div></p>
     </div>
   );
