@@ -10,11 +10,11 @@ export default class ProjectItems extends Component {
       img_url: 'http://via.placeholder.com/300x175', url: 'https://codepen.io/thegreaterpanda/full/ZBeNPe/'},
       {title: 'Wikipedia Viewer', description: 'is an Angular app written in HAML to allow easy viewing/searching of Wikipedia articles.',
       img_url: 'http://via.placeholder.com/300x175', url: 'https://codepen.io/thegreaterpanda/full/JWOOpj/'},
-      {title: 'Blah blah', description: '',
+      {title: 'More to come', description: '',
       img_url: 'http://via.placeholder.com/300x175', url: '#'},
-      {title: 'Blah blah', description: '',
+      {title: 'More to come', description: '',
       img_url: 'http://via.placeholder.com/300x175', url: '#'},
-      {title: 'Blah blah', description: '',
+      {title: 'More to come', description: '',
       img_url: 'http://via.placeholder.com/300x175', url: '#'},
     ]
 
