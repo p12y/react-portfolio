@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://p12y.github.io/portfolio/",
   "dependencies": {
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
