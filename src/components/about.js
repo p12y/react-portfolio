@@ -8,7 +8,7 @@ const skills = [{id: 1, name: 'HTML/CSS/SCSS'}, {id: 2, name: 'Ruby', children: 
 {id: 7, name: 'React'}, {id: 8, name: 'Angular'}, {id: 9, name: 'Redux'}]}, {id: 10, name: 'Git'}, 
 {id: 11, name: 'Heroku'}, {id: 12, name: 'AWS'}];
 
-const dominationTextAfter = <span><del>work on my plans for world domination</del> ehem... persue my goals <span className="text-danger"><span role="img" aria-label="devil-face">&#x1F608;</span></span></span>;
+const dominationTextAfter = <span><del>work on my plans for world domination</del> ehem... pursue my goals <span className="text-danger"><span role="img" aria-label="devil-face">&#x1F608;</span></span></span>;
 const dominationTextBefore = <span className="blue-underline">work on my plans for world domination</span>;
 
 export default class About extends Component {

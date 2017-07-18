@@ -219,3 +219,10 @@ p.project-item-description svg:hover {
   fill: #63c6cc;
 }
 
+::selection {
+  background: #7DF9FF;
+}
+::-moz-selection {
+  background: #7DF9FF;
+}
+
