@@ -210,3 +210,12 @@ svg {
   margin-right: 2em;
 }
 
+p.project-item-description svg {
+  fill: #7DF9FF;
+  margin-top: 0.5em;
+}
+
+p.project-item-description svg:hover {
+  fill: #63c6cc;
+}
+

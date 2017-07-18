@@ -18,7 +18,7 @@ export default class Intro extends Component {
                 <h2 className="mono"><span className="purple">Full-stack</span> <span className="pink">software engineer</span><br/>
               </h2>
               <hr/>
-              <blockquote>I use the <span className="highlight">entire</span> tech stack to <span className="highlight">create</span> products that people <span className="highlight">love</span> to use.</blockquote>
+              <blockquote>My <span className="highlight">passion</span> is creating great <span className="highlight">products</span> that people <span className="highlight">love</span> to use.</blockquote>
               <div className="text-center more">
                 <span className="arrow" onClick={() => this.handleArrowClick('#about')} >
                   <Ionicon icon="ion-ios-arrow-down" fontSize="25px" color="white"/>
