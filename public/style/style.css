@@ -226,3 +226,8 @@ p.project-item-description svg:hover {
   background: #7DF9FF;
 }
 
+.img-rounded {
+  margin-left: auto;
+  margin-right: auto;
+}
+
